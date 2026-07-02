@@ -1,0 +1,6 @@
+{
+  "private": true,
+  "scripts": {
+    "deploy": "node -e \"console.error('No production deployment is configured for companion-robot; hardware/software phases are not built yet.'); process.exit(1)\""
+  }
+}
