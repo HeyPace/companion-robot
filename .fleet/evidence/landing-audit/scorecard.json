@@ -1,0 +1,21 @@
+{
+  "$schema": "fleet.landing-audit.v1",
+  "project": "companion-robot",
+  "priority": "P4",
+  "decision": "Hold",
+  "auditedAt": "2026-08-29",
+  "candidateUrl": null,
+  "productionUrl": null,
+  "releaseState": "No public website or web product exists. The canonical dossier classifies Companion Robot as an undeployed, out-of-fleet hardware ideation project.",
+  "implementationAction": "not-applicable",
+  "migrationCandidate": false,
+  "gates": {
+    "contentPurpose": { "score": null, "status": "not-applicable", "evidence": "The retained project is planning only, with no completed hardware build, public product, or web action to describe." },
+    "designQuality": { "score": null, "status": "not-applicable", "evidence": "There is no landing page or web interface to score." },
+    "seo": { "score": null, "status": "not-applicable", "evidence": "There is no canonical website to audit." },
+    "geo": { "score": null, "status": "not-applicable", "evidence": "There is no canonical website to audit." },
+    "performance": { "score": null, "status": "not-applicable", "evidence": "There is no canonical website to measure." }
+  },
+  "verification": { "passed": ["canonical deployment state checked", "repository surface inventory checked"] },
+  "minimumObserved": null
+}
